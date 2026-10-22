@@ -1,0 +1,14 @@
+# The environment that uv builds (several GB), and Python's caches
+.venv/
+__pycache__/
+*.pyc
+
+# The language model of Part 2, when it's installed by hand (724 MB)
+part 2/model/
+
+# macOS and Windows clutter
+.DS_Store
+Thumbs.db
+
+# The trainer notes stay on the author's machine
+trainer.MD
